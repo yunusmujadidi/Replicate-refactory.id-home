@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,29 +13,48 @@ nav{
     justify-content: space-between;
     background-color: black;
   
-    padding: 25px 100px 0px;
+    padding: 35px 175px 0px;
     color: white;
   
 }
 
 
-h1 > .title{
-    color: #e48800;
-    
-}
 .title {
+    
     background-color: #060F20;
     color: white;
-   
-    padding: 10px;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-bottom: 25px;
+    padding-right: 75px;
+ 
+  
 }
 
 
-.judul {
-    padding-top: 100px;
+ .judul {
+    font-family: 'Raleway', sans-serif;
+    color: #e48800
+   
+ 
+}
+
+.tentang{
+    padding-left: 60px;
+    font-size: larger;
+
+    padding-top: 25px;
+   
+} 
+
+.link{
+    padding-left: 60px;
 }
 
 .hiring {
     background-color:  #0B162B;
     color: white;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-left: 80px;
 }
