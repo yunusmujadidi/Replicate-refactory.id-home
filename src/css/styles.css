@@ -198,3 +198,13 @@ h1.judul {
     color: white;
     background-color: #F19703;
 }
+
+.link > a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    padding-left:20px  ;
+    text-align: center;
+}
+
+
