@@ -161,3 +161,40 @@ h1.judul {
     font-weight: 700;
 
 }
+
+.hero-btn {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 70px;
+    border-radius: 8px;
+    background-color: #E38800;
+
+}
+
+.hero-btn:hover{
+    color: white;
+    background-color: #F19703;
+}
+
+.button2 {
+    padding-top: 20px;
+}
+
+.hero-btn2 {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 63px;
+    border: 2px solid #E38800;
+    border-radius: 8px;
+   
+
+}
+
+.hero-btn2:hover{
+    color: white;
+    background-color: #F19703;
+}
