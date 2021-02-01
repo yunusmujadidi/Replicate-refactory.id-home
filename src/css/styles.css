@@ -7,6 +7,7 @@
     padding: 0px;
     font-family: 'Monserrat', sans-serif;
     box-sizing: border-box;
+    font-style: normal;
 }
 
 nav{
@@ -81,6 +82,7 @@ h1.judul {
 }
 
 .hiring {
+    display: flex;
     background-color:  #0B162B;
     color:#8D8D8D;
     padding-top: 50px;
@@ -133,8 +135,29 @@ h1.judul {
 
 .tabelhire {
     display: flex;
+    
+}
+
+.kiriket {
     font-weight: 500;
     color: #5d636b;
 }
 
+.kananket {
+    padding-left: 25px;
+}
 
+.hiringinfo {
+    display: flex;
+    font-family: 'Monserrat', sans-serif;
+    line-height: 44px;
+    text-align: center;
+    padding-left: 70px;
+}
+
+.hiringjml {
+    color: #E1E1E1;
+    font-size: 24px;
+    font-weight: 700;
+
+}
