@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 
 *{
@@ -122,8 +122,19 @@ h1.judul {
     font-weight: 500;
     font-size: 18px;
     color: #767d86;
-    
 
+
+}
+
+.kiri1 {
+    color: white;
+    font-weight: 500;
+}
+
+.tabelhire {
+    display: flex;
+    font-weight: 500;
+    color: #5d636b;
 }
 
 
