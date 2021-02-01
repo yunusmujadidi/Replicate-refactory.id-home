@@ -40,6 +40,12 @@ nav{
     color: #e48800
 }
 
+h1.judul {
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+
+}
+
 .tentang{
     padding-left: 60px;
     font-size: larger;
