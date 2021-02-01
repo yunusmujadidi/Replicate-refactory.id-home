@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Monserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 nav{
@@ -17,6 +18,7 @@ nav{
     color: white;
   
 }
+
 .menu{
    
 
@@ -50,6 +52,7 @@ h1.judul {
     padding-left: 60px;
     font-size: larger;
     padding-top: 25px;
+    text-align: justify;
    
 } 
 
