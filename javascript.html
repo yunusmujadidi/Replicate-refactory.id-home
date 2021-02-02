@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Java Script</title>
+    
+</head>
+
+<body>
+    <script>
+        console.log("hello world")
+        let firstName = "Joe"
+        console.log(firstName)
+
+        console.log(2>2)
+
+
+        let nilai = 7;
+        if (nilai > 4) {
+            console.log("nilai lebih besar dari pada 4");
+        }else if (nilai = 4) {
+            console.log("nilai sama dengan 4");
+        }
+        else {
+            console.log("nilai lebih kecil dari pada 4");
+        }
+
+        let nilai1 = 3
+        
+        nilai1 > 4 ? console.log("nilai lebih besar dari 4") : console.log("nilai lebih kecil dari 4")
+
+        const check = 0
+         if(check){
+             console.log("ini benar");
+         }else {
+             console.log("ini salah");
+         }
+
+         let a = 5;
+
+
+         switch (a){
+             case 5 :
+                 console.log("ini adalah angka 5");
+                 break;
+            
+            case 6 :
+                console.log("ini adalah angka 6");
+                break;
+            default :
+                console.log("ini default");
+                break;
+            
+         }
+
+         const data = ["jakarta","bandung","jogja","semarang"]
+
+
+
+            for (let index = 0;index < data.length;index++){
+                const element = data[index];
+                if(element==="jogja"){
+                    continue
+                }
+                console.log(element)
+            }
+
+
+            let counter = 1;
+            while (counter <= 10){
+
+                console.log(counter);
+                counter = counter + 1
+            }
+
+
+            let answer;
+            do {
+                answer = prompt("apa kita akan melakukannya lagi?")
+            } while (answer ==  "y");
+
+
+
+       
+
+    </script>
