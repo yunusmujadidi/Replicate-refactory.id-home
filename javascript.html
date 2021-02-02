@@ -55,13 +55,13 @@
             
          }
 
-         const data = ["jakarta","bandung","jogja","semarang"]
+         const data = ["Jakarta","Bandung","jogja","Semarang","Medan"]
 
 
 
             for (let index = 0;index < data.length;index++){
                 const element = data[index];
-                if(element==="jogja"){
+                if(element==="Jogja"){
                     continue
                 }
                 console.log(element)
@@ -80,6 +80,33 @@
             do {
                 answer = prompt("apa kita akan melakukannya lagi?")
             } while (answer ==  "y");
+
+            data.forEach((city) => {
+                console.log(city)
+            })
+
+            console.log (data)
+
+            const dataUpper = data.map(city => city.toUpperCase())
+
+            console.log (dataUpper)
+
+            const filterBandung = dataUpper.filter(city => city === "BANDUNG");
+            console.log(filterBandung)
+
+
+            const number = [1,2,3,4,5,6];
+
+            const reduceNumber = number.reduce((prev, curr) => prev+curr,0)
+
+            console.log(reduceNumber)
+
+
+            const objek = {a:1,b:2,c:3,d:4};
+
+            for (const key in objek){
+                console.log(objek[key])
+            }
 
 
 
