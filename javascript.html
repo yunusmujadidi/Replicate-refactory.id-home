@@ -91,7 +91,7 @@
 
             console.log (dataUpper)
 
-            const filterBandung = dataUpper.filter(city => city === "BANDUNG");
+            const filterBandung = dataUpper.filter(city => city != "BANDUNG");
             console.log(filterBandung)
 
 
@@ -107,6 +107,30 @@
             for (const key in objek){
                 console.log(objek[key])
             }
+
+            const objekBaru = Object.assign({}, objek)
+            objekBaru.e=7
+
+            console.log(objek)
+            console.log(objekBaru)
+
+            const objekAssign = Object.keys(objek)
+
+            console.log(objekAssign.map(e => e.toUpperCase()))
+
+            const objekEntries = Object.entries(objek)
+
+            console.log(objekEntries)
+
+            const objekValues = Object.values(objek)
+
+            console.log(objekValues)
+
+            function hello(){
+                console.log("Hello World");
+            }
+
+            hello()
 
 
 
